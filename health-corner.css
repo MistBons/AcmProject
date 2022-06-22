@@ -1,0 +1,48 @@
+
+body{
+    background: url(img/BG.jpg) center no-repeat;
+    height: 150px;
+}
+
+.BMI{
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px 5px gray;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 35%;
+    left: 33%;
+}
+
+.title{
+    margin-left: 620px;
+    margin-top: 200px;
+    /* border: 3px solid red; */
+    font-size: x-large;
+    font-family: 'Spline Sans Mono', monospace;
+    /* border: 2px solid red; */
+    width: 250px;
+    text-align: center;
+}
+
+.inputV{
+    /* border: 2px solid red; */
+    font-family: 'Spline Sans Mono', monospace;
+    /* height: 60px; */
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 5px;
+    padding: 8px;
+}
+.input{
+    /* border: 2px solid red;    */
+    width: 100px;
+    text-decoration: none;
+}
+#Age{
+    margin-left: 33px;
+}
