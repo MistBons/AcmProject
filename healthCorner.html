@@ -1,0 +1,35 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="health-corner.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="health-corner.css">
+</head>
+
+<body>
+    <!-- <img src="img/BG.jpg" alt=""> -->
+    <h2 class="title">Body Mass Index</h2>
+    <div class="BMI">
+        <form action="" class="form" id="form" onsubmit="return validateForm()">
+            <p class="inputV">Height:
+                <input class="input" id="height" type="number" name="Height" size="15" maxlength="10" />
+                (in cm)
+            </p>
+            <p class="inputV">Weight:
+                <input class="input" id="weight" type="number" name="Height" size="15" maxlength="10" />
+                (in kg)
+            </p>
+            <p class="inputV" id="ageclm">Age:
+                <input class="input" id="Age" type="number" name="Height" size="15" maxlength="10" />
+                (in yrs)
+            </p>
+
+            <button class="submit border-2 border-black m-2 w-40 bg-blue-300 rounded-xl">submit</button>
+        </form>
+    </div>
+    <p class="ans">Lorem, ipsum dolor.  </p>
+    <script src="health-corner.js"></script>
+</body>
